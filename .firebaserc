@@ -1,0 +1,41 @@
+{
+  "projects": {
+    "default": "pidi",
+    "master": "pidi",
+    "prod": "pidi"
+  },
+  "ci": {
+    "createConfig": {
+      "master": {
+        "env": "production",
+        "firebase": {
+          "apiKey": "",
+          "authDomain": "pidi.firebaseapp.com",
+          "databaseURL": "https://pidi.firebaseio.com",
+          "projectId": "pidi",
+          "storageBucket": "pidi.appspot.com"
+        },
+        "reduxFirebase": {
+          "userProfile": "users",
+          "enableLogging": false,
+          "updateProfileOnLogin": false
+        }
+      },
+      "prod": {
+        "env": "production",
+        "firebase": {
+          "apiKey": "",
+          "authDomain": "pidi.firebaseapp.com",
+          "databaseURL": "https://pidi.firebaseio.com",
+          "projectId": "pidi",
+          "storageBucket": "pidi.appspot.com"
+        },
+        "reduxFirebase": {
+          "userProfile": "users",
+          "enableLogging": false,
+          "updateProfileOnLogin": false
+        }
+      }
+    }
+  }
+}
