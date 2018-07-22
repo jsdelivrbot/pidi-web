@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "pidi",
+    "default": "pidi-test",
     "master": "pidi",
     "prod": "pidi"
   },
